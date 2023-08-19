@@ -1,0 +1,7 @@
+#anime{
+    width:56vh;
+    height:56vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}

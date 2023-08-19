@@ -1,0 +1,36 @@
+#skills{
+    height: 60vh;
+    width: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mystk{
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tech{
+    background-color: white;
+    height: 12vh;
+    width: 42vh;
+    transition: 500ms;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tech:hover{
+    height:14vh;
+    width: 46vh;
+}
+.lang{
+    height: 7vh;
+    width: 7vh;
+    transition: 500ms;
+}
+.lang:hover{
+    height: 10vh;
+    width: 10vh;
+}

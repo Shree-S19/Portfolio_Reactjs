@@ -1,0 +1,109 @@
+#project-container{
+    /* background-color: plum; */
+    height: 88vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#flames-container{
+    flex:80%;
+    height: 88vh;
+    /* background-color: chocolate; */
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+}
+#container-left{
+    flex: 50%;
+    /* background-color: red; */
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+}
+#container-right{
+    flex: 50%;
+    /* background-color: green; */
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#flames-animation{
+    /* background-color: aliceblue; */
+    flex:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#flames-description{
+    /* background-color: blue; */
+    flex:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#flames-techStack{
+    /* background-color: purple; */
+    flex:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #flame-tech div{
+    box-shadow: 8px 8px 4px rgb(198, 110, 160);
+    border-radius: 30%;
+    height: 8.5vh;
+    width: 8.5vh;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+} */
+#img-container{
+    /* background-color: aliceblue; */
+    height: 50vh;
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#links-container{
+    /* background-color: peachpuff; */
+    width: 80%;
+    height:20vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#live-site{
+    flex: 60%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#live-site a{
+    text-decoration: none;
+    color: rgb(243, 76, 243);
+    transition: 800ms;
+    text-shadow: 4px 4px 8px rgb(180, 78, 146);
+}
+#live-site a:hover{
+    color: purple;
+}
+#render{
+    box-shadow: 4px 4px 6px rgb(71, 246, 231);
+}
+#git-repo{
+    flex: 40%;
+    /* background-color: aqua; */
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#git-animation{
+    height: 16vh;
+    width: 16vh;
+}

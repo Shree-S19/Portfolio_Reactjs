@@ -1,0 +1,44 @@
+.profile-icons{
+    width: 8vh;
+    height: 8vh;
+    transition: 500ms;
+    padding: 3vh;
+    margin: 10px;
+}
+.profile-icons:hover{
+    position: relative;
+    height: 10.5vh;
+    width: 10.5vh;
+    padding: 1.5vh;
+}
+
+#resume-container{
+    margin: 20px;
+    background: linear-gradient(150deg,#ac60ee 35%,#d565e9);
+    height: 5vh;
+    width: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    border: solid 2px rgb(242, 120, 222);
+}
+#resume-container:hover{
+    background: linear-gradient(150deg, #d565e9 35%,#ac60ee );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgb(185, 55, 232);
+}
+#resume{
+    text-decoration: none;
+    color: rgb(247, 195, 203);
+    font-size: 2.8vh;
+    padding: 1px;
+    background-color: transparent;
+    border: none;
+}
+#download-icon{
+    color:whitesmoke;
+}
+

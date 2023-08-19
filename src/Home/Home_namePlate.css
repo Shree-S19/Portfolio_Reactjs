@@ -1,0 +1,62 @@
+.home{
+    background-color: white;
+    height: 88vh;
+    margin: 0;
+    padding: 0;
+}
+#below-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+#left-side{
+    flex:50%;
+    background-color: white;
+    height: 88vh;
+    display: flex;
+    flex-direction:column;
+}
+#namePlate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+    flex-direction: column;
+    margin: 15vh;
+    /* border: solid 10px black; */
+}
+
+#intro {
+    font-size: 3vh;
+    padding: 0vh;
+    margin: 0vh;
+    font-family:"Times New Roman", Times, serif;
+    display: block;
+}
+#name{
+    font-size: 8vh;
+    padding: 0vh;
+    font-family:"Times New Roman", Times, serif;
+    display: block;
+}
+.Typewriter__wrapper{
+    font-size: 5vh;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+.Icons{
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+    max-height: 400px;
+    max-width:800px;
+    /* border: solid 10px black; */
+    margin: 1vh;
+}
+#right-side{
+    flex:50%;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

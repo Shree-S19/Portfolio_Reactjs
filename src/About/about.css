@@ -1,0 +1,41 @@
+#about-container{
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#about-left-side{
+    flex:50%;
+    display: flex;
+    flex-direction: column;
+}
+#about-right-side{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#first{
+    flex: 40%;
+    display: flex;
+    align-items: center;
+    padding: 3vh;
+}
+#second{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    @media (max-width:600px){
+        display: none;
+    }
+}
+#third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}

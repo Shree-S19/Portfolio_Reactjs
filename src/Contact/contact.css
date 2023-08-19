@@ -1,0 +1,51 @@
+#mail-container{
+    flex:40%;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 4vh;
+}
+.input-field{
+    width: 30vh;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#mail-sent{
+    flex: 50%;
+    background-color: bisque;
+    height: 20vh;
+}
+#floating-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.social-media-accounts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 14vh;
+    cursor: pointer;
+}
+.text-field{
+    min-height: 15vh;
+    max-height: 40vh;
+    resize: none;
+}
